@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <trkseg>
+      <trkpt lat="40.04894927217118" lon="116.28061819046137">
+        <ele>49.7986946105957</ele>
+        <time>2019-06-11T00:55:20.888000Z</time>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:hr>119</gpxtpx:hr>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="40.048680180076325" lon="116.28080056869487">
+        <ele>50.18611145019531</ele>
+        <time>2019-06-11T00:55:22.159000Z</time>
+      </trkpt>
+      <trkpt lat="40.04875697200929" lon="116.2808949142974">
+        <ele>50.018733978271484</ele>
+        <time>2019-06-11T00:55:28.160000Z</time>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:hr>118</gpxtpx:hr>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="40.0487336257162" lon="116.28084086628627">
+        <ele>50.04869079589844</ele>
+        <time>2019-06-11T00:55:34.160000Z</time>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:hr>114</gpxtpx:hr>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="40.04875204040683" lon="116.2807952055635">
+        <ele>49.90361022949219</ele>
+        <time>2019-06-11T00:55:40.171000Z</time>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:hr>114</gpxtpx:hr>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="40.04877706412194" lon="116.2808830041474">
+        <ele>49.00624465942383</ele>
+        <time>2019-06-11T00:55:52.353000Z</time>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:hr>117</gpxtpx:hr>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="40.048776554342396" lon="116.28088293267965">
+        <ele>49.026859283447266</ele>
+        <time>2019-06-11T00:56:11.289000Z</time>
+      </trkpt>
+      <trkpt lat="40.04869541043506" lon="116.28092584732441">
+        <ele>49.18722152709961</ele>
+        <time>2019-06-11T00:56:30.132000Z</time>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:hr>139</gpxtpx:hr>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="40.04874100857284" lon="116.28089480530708">
+        <ele>49.23216247558594</ele>
+        <time>2019-06-11T00:56:36.494000Z</time>
+      </trkpt>
+      <trkpt lat="40.048756818585936" lon="116.28085237948584">
+        <ele>49.02522659301758</ele>
+        <time>2019-06-11T00:57:01.784000Z</time>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:hr>129</gpxtpx:hr>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="40.04873681930156" lon="116.28085068429536">
+        <time>2019-06-11T00:57:22.329000Z</time>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:hr>138</gpxtpx:hr>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
