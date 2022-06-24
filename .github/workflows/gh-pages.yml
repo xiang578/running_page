@@ -37,6 +37,8 @@ jobs:
 
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.1.4
+        with:
+          node-version: '16'
 
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
@@ -54,6 +56,8 @@ jobs:
           yarn install
       - run: |
           yarn build --prefix-paths
+      - run: |
+          cp -r assets/ public/static
 
       - name: GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2.2.0

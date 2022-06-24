@@ -5,14 +5,16 @@
 # license that can be found in the LICENSE file.
 
 import datetime
-import gpxpy as mod_gpxpy
 import json
 import os
+from collections import namedtuple
+
+import gpxpy as mod_gpxpy
+import polyline
 import s2sphere as s2
+
 from .exceptions import TrackLoadError
 from .utils import parse_datetime_to_local
-import polyline
-from collections import namedtuple
 
 start_point = namedtuple("start_point", "lat lon")
 run_map = namedtuple("polyline", "summary_polyline")
@@ -43,10 +45,11 @@ class Track:
                 raise TrackLoadError("Empty GPX file")
             with open(file_name, "r") as file:
                 self._load_gpx_data(mod_gpxpy.parse(file))
-        except:
+        except Exception as e:
             print(
                 f"Something went wrong when loading GPX. for file {self.file_names[0]}, we just ignore this file and continue"
             )
+            print(str(e))
             pass
 
     def load_from_db(self, activity):
@@ -202,7 +205,9 @@ class Track:
             "elapsed_time": datetime.timedelta(
                 seconds=(moving_data.moving_time + moving_data.stopped_time)
             ),
-            "average_speed": moving_data.moving_distance / moving_data.moving_time,
+            "average_speed": moving_data.moving_distance / moving_data.moving_time
+            if moving_data.moving_time
+            else 0,
         }
 
     def to_namedtuple(self):
