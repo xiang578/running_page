@@ -22,6 +22,7 @@ env:
   RUN_TYPE: strava # support strava/nike/garmin/garmin_cn/keep/only_gpx/nike_to_strava, Please change the 'pass' it to your own
   ATHLETE: xiang578
   TITLE: xiang578 Running
+  MIN_GRID_DISTANCE: 10 # change min distance here
   TITLE_GRID: Over 10km Runs
   GITHUB_NAME: xiang578
   GITHUB_EMAIL: xiang578@foxmail.com
